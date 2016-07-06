@@ -95,7 +95,7 @@ body {
 #gnb .wrapper > ul > li.active > a, #gnb .wrapper > ul > li:hover > a {
 	color: #333;
 }
-#gnb .wrapper > ul > li.active > ul > li > a, #gnb .wrapper > ul > li: hover > ul > li > a {
+#gnb .wrapper > ul > li.active > ul > li > a, #gnb .wrapper > ul > li:hover > ul > li > a {
 	color: #666; 
 }
 #header .container .lang {
@@ -110,7 +110,7 @@ body {
 	color: #999;
 	line-height: 85px;
 }
-#header .container .lang > li:first-child: after {
+#header .container .lang > li:first-child:after {
 	content: "|";
 	padding: 0 10px;
 }

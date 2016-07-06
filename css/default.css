@@ -25,26 +25,6 @@ body #header .container h1 {
 	left:15px;
 	margin:0;
 }
-body #header .container h1 a {
-
-}
-body #header .container #gnb ul {
-	text-align:center;
-}
-body #header .container #gnb ul li {
-	display:inline-block;
-	font-size:17px;
-	color:#333;
-}
-body #header .container #gnb ul li a {
-	vertical-align:middle;
-	color:#333;
-	padding:0 25px;
-	display:block;
-	line-height:85px;
-	text-decoration:none;
-	font-weight:600;
-}
 body #header .container .lang {
 	position:absolute;
 	top:0;

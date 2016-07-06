@@ -37,7 +37,7 @@
 							<ul>
 								<li><a href="#">기업법무</a></li>
 								<li><a href="#">VENTURE/IPO</a></li>
-								<li><a href="#">M&A</a></li>
+								<li><a href="#">M&amp;A</a></li>
 								<li><a href="#">금융/증권</a></li>
 								<li><a href="#">정보보호</a></li>
 								<li><a href="#">외투법인 설립</a></li>
@@ -107,10 +107,10 @@
 					<ul class="slider">
 						<li class="shortcut-1"><a href="#"><span></span>기업법무</a></li>
 						<li class="shortcut-2"><a href="#"><span></span>Venture/IPO</a></li>
-						<li class="shortcut-3"><a href="#"><span></span>M&A</a></li>
+						<li class="shortcut-3"><a href="#"><span></span>M&amp;A</a></li>
 						<li class="shortcut-1"><a href="#"><span></span>기업법무</a></li>
 						<li class="shortcut-2"><a href="#"><span></span>Venture/IPO</a></li>
-						<li class="shortcut-3"><a href="#"><span></span>M&A</a></li>
+						<li class="shortcut-3"><a href="#"><span></span>M&amp;A</a></li>
 					</ul>
 				</div>
 				<div class="notice">

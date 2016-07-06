@@ -6,7 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>법무법인시헌</title>
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/css/test_header.css" rel="stylesheet">
+	<link href="/css/default.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/header.css" rel="stylesheet">
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -36,7 +38,7 @@
 							<ul>
 								<li><a href="#">기업법무</a></li>
 								<li><a href="#">VENTURE/IPO</a></li>
-								<li><a href="#">M&A</a></li>
+								<li><a href="#">M&amp;A</a></li>
 								<li><a href="#">금융/증권</a></li>
 								<li><a href="#">정보보호</a></li>
 								<li><a href="#">외투법인 설립</a></li>

@@ -1,6 +1,6 @@
 //visual slide
 $('.bxslider').bxSlider({
-	//auto: true,
+	auto: true,
 	controls: false //컨트롤 이전 다음 버튼 유무, 
 	//pager: false // 페이퍼 사용 유무
 });

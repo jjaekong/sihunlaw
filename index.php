@@ -197,7 +197,7 @@
 				</ul>
 			</div>
 			<div class="copyright">
-				<p>copyright (c) 2016 sihun law.  all right reserved. site by <a href="http://movementk.com" target="_blank">movementk group</a></p>
+				<p>copyright (c) 2016 sihun law.  all right reserved. site by <a href="http://movementk.com" target="_blank">MOVEMENT K GROUP</a></p>
 			</div>
 			<div class="connect-site">
 				<select>

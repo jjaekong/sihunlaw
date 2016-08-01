@@ -112,7 +112,7 @@ body #footer .container .copyright p a {
 body #footer .container .connect-site {
 	position: absolute;
 	top: 34px;
-	right: 0;
+	right: 15px;
 }
 body #footer .container .connect-site select {
 	width: 170px;

@@ -16,7 +16,8 @@ body #header {
 }
 body #header > .container {
 	position: relative;
-	width: 1200px;
+	width: 1170px;
+    padding: 0;
 	background-color: #fff;
 }
 body #header .container h1 {
@@ -50,7 +51,8 @@ body #content {
 /* footer */
 body #footer .container {
 	position: relative;
-	width: 1200px;
+	width: 1170px;
+    padding-bottom: 40px;
 }
 body #footer .container .announcement > ul li {
 	display: inline;

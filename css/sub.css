@@ -1,0 +1,261 @@
+body.sub {
+    background-color: #fff;
+}
+body.sub > #content > .container {
+    display: table;
+    width: 1170px;
+}
+body.sub > #content > .container > .aside {
+    display: table-cell;
+    width: 200px;
+    vertical-align: top;
+}
+#aside {
+    width: 200px;
+}
+#aside > h2 {
+    height: 130px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    line-height: 128px;
+    background-color: #283b73;
+}
+#aside > #lnb > ul > li {
+    padding: 17px 0 17px 14px;
+    border-bottom: 1px solid #cececf;
+}
+#aside > #lnb > ul > li > a {
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+    display: block;
+}
+#aside > #lnb > ul > .active {
+    background-color: #f2f2f2;
+    background-image: url(/images/sub/arrow_img_bl.png);
+    background-repeat: no-repeat;
+    background-position: 88% 50%;
+}
+#aside > #lnb > ul > .active > a {
+    color: #395195;
+}
+/* #footer */
+.sub #footer {
+    padding-top: 45px;
+    border-top: 1px solid #dbdbdb;
+}
+
+
+
+body.sub > #content > .container .page-header {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body.sub > #content > .container .page-header > h3 {
+    font-size: 40px;
+    color: #283b73;
+    font-weight: bold;
+    margin: 0;
+    padding: 53px 0 0 3px;
+}
+body.sub > #content > .container .page-header > .breadcrumb {
+    position: absolute;
+    bottom: 18px;
+    right: 0;
+    padding: 0;
+    background-color: #fff;
+}
+body.sub > #content > .container .page-header > .breadcrumb > li > a {
+    font-size: 12px;
+    color: #8f8f8f;
+}
+body.sub > #content > .container .page-header > .breadcrumb > .active {
+    font-size: 12px;
+    color: #8f8f8f;
+}
+body.sub > #content > .container .page-header > .breadcrumb > li:before {
+    content: "> ";
+}
+body.sub > #content > .container .page-header > .breadcrumb > li:first-child:before {
+    content: "";
+}
+body.sub > #content > .container .page-header > hr {
+    border-top: 1px solid #c2c2c2;
+    margin-top: 39px;
+    margin-bottom: 51px;
+}
+
+
+/* content 공통 */
+input {
+    box-shadow: none;
+}
+.search-area {
+    position: relative;
+    overflow: hidden;
+}
+.search-area > form {
+    float: right;
+}
+.search-area .form-group {
+    float: left;
+}
+.search-area .form-group > select {
+    width: 85px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+    margin-right: 5px;
+    box-shadow: none;
+}
+.search-area .form-group > input {
+    height: 35px;
+    width: 177px;
+    padding-right: 50px;
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+    box-shadow: none;
+}
+.search-area button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 47px;
+    height: 33px;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+.dot-list > li {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    padding-left: 15px;
+    background-image: url(/images/sub/dot_img.png);
+    background-repeat: no-repeat;
+    background-position: 0px 11px;
+}
+
+.table-wrap > .table-bordered {
+    border: 0;
+    border-top: 2px solid #395195;
+}
+.table-wrap > .table > thead > tr > th {
+    font-size: 14px;
+    color: #444;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0;
+    border: 0;
+    background-color: #f5f5f5;
+}
+.table-wrap > .table > tbody > tr > td {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    padding: 17px 0;
+    border: 0;
+    border-top: 1px solid #d6d6d6;
+}
+.table-wrap > .table > tbody > tr > td:nth-of-type(2) {
+    text-align: left;
+    padding-left: 20px;
+}
+.table-wrap > .table > tbody > tr:last-child > td {
+    border-bottom: 1px solid #6f848e;
+}
+.paging {
+    text-align: center;
+}
+.paging > .pagination {
+    margin: 0;
+}
+.paging > .pagination > li > a {
+    width: 27px;
+    height: 27px;
+    font-size: 13px;
+    color: #666;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    padding: 4px 9px;
+    margin-right: 5px;
+}
+.paging > .pagination > li:last-child > a {
+    margin-right: 0;
+}
+.paging > .pagination > li:nth-of-type(2) > a {
+    margin-right: 15px;
+    padding: 4px 10px;
+}
+.paging > .pagination > li:nth-of-type(7) > a {
+    margin-right: 15px;
+}
+.paging > .pagination > li:nth-of-type(8) > a {
+    padding: 4px 10px;
+}
+.paging > .pagination > .active > a {
+    color: #fff;
+    border-color: #395195;
+    background-color: #395195;
+}
+.paging > .pagination > li > a > span {
+    color: #395195;
+}
+
+.btn-area > p > .btn {
+    width: 91px;
+    height: 33px;
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 0;
+}
+.btn-area > p > .btn-blue {
+    background-color: #3b5396;
+}
+.btn-area > p > .btn-gray {
+    background-color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

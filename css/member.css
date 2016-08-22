@@ -1,0 +1,9 @@
+.lawyer .article-header {
+  background-color: #0000FF;
+  height: 100px; }
+  .lawyer .article-header a {
+    color: white; }
+    .lawyer .article-header a:hover {
+      color: orange; }
+
+/*# sourceMappingURL=member.css.map */

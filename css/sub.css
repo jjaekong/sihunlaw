@@ -1,3 +1,7 @@
+.sub-content {
+    padding-bottom: 100px;
+}
+
 body.sub {
     background-color: #fff;
 }
@@ -12,6 +16,7 @@ body.sub > #content > .container > .aside {
 }
 #aside {
     width: 200px;
+    margin-top: 52px
 }
 #aside > h2 {
     height: 130px;
@@ -29,7 +34,6 @@ body.sub > #content > .container > .aside {
 #aside > #lnb > ul > li > a {
     font-size: 17px;
     color: #333;
-    font-weight: 600;
     display: block;
 }
 #aside > #lnb > ul > .active {
@@ -40,7 +44,9 @@ body.sub > #content > .container > .aside {
 }
 #aside > #lnb > ul > .active > a {
     color: #395195;
+    font-weight: 600;
 }
+
 /* #footer */
 .sub #footer {
     padding-top: 45px;
@@ -58,9 +64,9 @@ body.sub > #content > .container .page-header {
 body.sub > #content > .container .page-header > h3 {
     font-size: 40px;
     color: #283b73;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0;
-    padding: 53px 0 0 3px;
+    padding: 83px 0 0 3px;
 }
 body.sub > #content > .container .page-header > .breadcrumb {
     position: absolute;

@@ -1,0 +1,223 @@
+/* introduce intro*/
+.introduce.intro .sub-content > .intro > .article-header > p {
+    font-size: 20px;
+    color: #333;
+    line-height: 30px;
+    padding-left: 23px;
+    letter-spacing: -1px;
+    border-left: 3px solid #395195;
+}
+.introduce.intro .sub-content > .intro > .article-header > p:last-child {
+    font-size: 14px;
+    color: #666;
+    margin-top: 52px;
+    border: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.introduce.intro .sub-content > .intro > .article-content {
+    overflow: hidden;
+    margin-top: 50px;
+    background-image: url(/images/introduce/intro_img.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 0 0;
+}
+.introduce.intro .sub-content > .intro > .article-content > p {
+    float: left;
+    padding-top: 418px;
+    width: 408px;
+}
+.introduce.intro .sub-content > .intro > .article-content > p:last-child {
+    float: right;
+}
+.introduce.intro .sub-content > .intro > .article-footer {
+    margin-top: 57px;
+}
+.introduce.intro .sub-content > .intro > .article-footer > p {
+    font-size: 16px;
+    color: #283b73;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: -1px;
+    margin-bottom: 58px;
+}
+.introduce.intro .sub-content > .intro > .article-footer > h4 {
+    text-align: right;
+    font-size: 16px;
+    color: #242424;
+    font-weight: 600;
+    line-height: 24px;
+}
+.introduce.intro .sub-content > .intro > .article-footer > h4 > small {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+}
+
+/* vision */
+.introduce.vision .sub-content > .vision > .article-header > p {
+    font-size: 20px;
+    color: #333;
+    line-height: 30px;
+    padding-left: 23px;
+    letter-spacing: -1px;
+    border-left: 3px solid #395195;
+}
+.introduce.vision .sub-content > .vision > .article-content {
+    margin-top: 40px;
+}
+.introduce.vision .sub-content > .vision > .article-content > .value {
+    margin-top: 54px;
+}
+
+
+/* location */
+.introduce.location .sub-content > .location > .map > .table-wrap {
+    margin-top: 22px;
+}
+.introduce.location .sub-content > .location > .map > .table-wrap > .table-bordered {
+    border-color: #5e5e5e;
+}
+.introduce.location .sub-content > .location > .map > .table-wrap > .table > tbody > tr > th {
+    font-size: 14px;
+    color: #333;
+    border-left: 0;
+    border-right: 0;
+    background-color: #f2f2f2;
+    padding: 14px 0 14px 20px !important;
+}
+.introduce.location .sub-content > .location > .map > .table-wrap > .table > tbody > tr > td {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    border-color: #d6d6d6;
+    padding: 14px 0 14px 20px !important;
+}
+.introduce.location .sub-content > .location > .map > .table-wrap > .table > tbody > tr > td > dl {
+    display: inline;
+}
+.introduce.location .sub-content > .location > .map > .table-wrap > .table > tbody > tr > td > dl > dt {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    display: inline-block;
+}
+.introduce.location .sub-content > .location > .map > .table-wrap > .table > tbody > tr > td > dl > dd {
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+}
+.introduce.location .sub-content > .location > .map > .table-wrap > .table > tbody > tr > td > dl > dt:before {
+    content: "(";
+}
+.introduce.location .sub-content > .location > .map > .table-wrap > .table > tbody > tr > td > dl > dd:before {
+    content: ": ";
+}
+.introduce.location .sub-content > .location > .map > .table-wrap > .table > tbody > tr > td > dl > dd:after {
+    content: ")";
+}
+.introduce.location .sub-content > .location > .traffic-info {
+    margin-top: 92px;
+}
+.introduce.location .sub-content > .location > .traffic-info > h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    vertical-align: middle;
+    padding-left: 15px;
+    border-left: 3px solid #395195;
+}
+.introduce.location .sub-content > .location > .traffic-info > h3 > small {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-left: 20px;
+}
+.introduce.location .sub-content > .location > .traffic-info > h4 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 43px 0 20px;
+    padding-left: 23px;
+    background-image: url(/images/introduce/location.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.introduce.location .sub-content > .location > .traffic-info > h4:last-child {
+    margin-top: 60px;
+}
+.introduce.location .sub-content > .location > .traffic-info > .subway {
+    font-size: 14px;
+    color: #666;
+}
+.introduce.location .sub-content > .location > .traffic-info > .subway > .gangnam {
+    font-weight: 600;
+    font-style: normal;
+    color: #009900;
+}
+.introduce.location .sub-content > .location > .traffic-info > .subway > .bundang {
+    font-weight: 600;
+    font-style: normal;
+    color: #b30014;
+}
+.introduce.location .sub-content > .location > .traffic-info > .subway > span {
+    display: inline-block;
+    width: 46px;
+    height: 18px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #be424b;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.introduce.location .sub-content > .location > .traffic-info > .attention:last-child {
+    margin-top: 15px;
+}
+.introduce.location .sub-content > .location > .traffic-info > .attention:before {
+    content: "(※ ";
+}
+.introduce.location .sub-content > .location > .traffic-info > .attention:after {
+    content: ")";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

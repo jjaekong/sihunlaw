@@ -7,9 +7,15 @@
 		<div class="container">
 			<div class="visual">
 				<ul class="bxslider">
-					<li><a href="#"><img src="/images/main/main_visual01.jpg" alt=""></a></li>
-					<li><a href="#"><img src="/images/main/main_visual01.jpg" alt=""></a></li>
-					<li><a href="#"><img src="/images/main/main_visual01.jpg" alt=""></a></li>
+					<li>
+					    <a href="#"><img src="/images/main/main_visual01.jpg" alt="visual img"></a>
+					</li>
+					<li>
+					    <a href="#"><img src="/images/main/main_visual01.jpg" alt="visual img"></a>
+					</li>
+					<li>
+					    <a href="#"><img src="/images/main/main_visual01.jpg" alt="visual img"></a>
+					</li>
 				</ul>
 			</div>
 			<div class="news-info">

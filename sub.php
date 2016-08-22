@@ -35,7 +35,6 @@
 
                     <article>
 
-
                         <div class="search-area" style="margin:30px 0;">
                             <form>
                                 <div class="form-group">

@@ -1,151 +1,84 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link href="/css/sub.css" rel="stylesheet">
+<link href="/css/main.css" rel="stylesheet">
 </head>
-<body class="sub">
+<body class="main">
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-	<main id="content" tabindex="-1" class="sub">
+	<main id="content" tabindex="-1">
 		<div class="container">
-		    <div class="row">
-                <div class="col-xs-2">
-                    <aside id="aside">
-                        <h2>시헌소개</h2>
-                        <nav id="lnb">
-                            <ul>
-                                <li class="active"><a href="#">법인 소개</a></li>
-                                <li><a href="#">비전과 가치</a></li>
-                                <li><a href="#">찾아오시는길</a></li>
-                            </ul>
-                        </nav>
-                    </aside>
-                </div>
-                <div class="col-xs-9">
-                    <section>
-                        <div class="section-header">
-                            <h3>법인 소개</h3>
-                            <ol class="breadcrumb">
-                                <li>
-                                    <a href="#">
-                                        <span class="glyphicon glyphicon-home"></span>
-                                    </a>
-                                </li>
-                                <li><a href="#">시헌소개</a></li>
-                                <li class="active">법인 소개</li>
-                            </ol>
-                            <hr>
-                        </div>
-
-                        <div class="search-area" style="margin:30px 0;">
-                            <form>
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option value="title">제목</option>
-                                        <option value="content">내용</option>
-                                        <option value="username">작성자</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="search-keyword" class="sr-only">검색어</label>
-                                    <input id="search-keyword" type="text" class="form-control">
-                                </div>
-                                <button type="submit" class="btn">
-                                    <span class="glyphicon glyphicon-search"></span>
-                                </button>
-                            </form>
-                        </div>
-
-                        <ul class="dot-list">
-                            <li>content</li>
-                            <li>content</li>
-                            <li>content</li>
-                            <li>content</li>
-                            <li>content</li>
-                        </ul>
-
-                        <div class="table-wrap" style="margin: 30px 0;">
-                            <table class="table table-bordered">
-                                <colgroup>
-                                    <col style="width: 80px;">
-                                    <col style="width: 484px;">
-                                    <col style="width: 73px;">
-                                    <col style="width: 133px;">
-                                    <col style="width: 100px;">
-                                </colgroup>
-                                <thead>
-                                    <tr>
-                                        <th>subject</th>
-                                        <th>subject</th>
-                                        <th>subject</th>
-                                        <th>subject</th>
-                                        <th>subject</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>content</td>
-                                        <td>content</td>
-                                        <td>content</td>
-                                        <td>content</td>
-                                        <td>content</td>
-                                    </tr>
-                                    <tr>
-                                        <td>content</td>
-                                        <td>content</td>
-                                        <td>content</td>
-                                        <td>content</td>
-                                        <td>content</td>
-                                    </tr>
-                                    <tr>
-                                        <td>content</td>
-                                        <td>content</td>
-                                        <td>content</td>
-                                        <td>content</td>
-                                        <td>content</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <div style="margin:30px 0;">
-                            <nav class="paging">
-                                <ul class="pagination">
-                                    <li>
-                                        <a href="#" aria-label="first-Previous">
-                                            <span aria-hidden="true">&laquo;</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&lsaquo;</span>
-                                        </a>
-                                    </li>
-                                    <li class="active"><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#">5</a></li>
-                                    <li>
-                                        <a href="#" aria-label="Next" >
-                                            <span aria-hidden="true">&rsaquo;</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" aria-label="end-Next">
-                                            <span aria-hidden="true">&raquo;</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-
-                        <div class="btn-area" style="margin: 30px 0;">
-                            <p>
-                                <a href="#" class="btn btn-blue" role="button">목록보기</a>
-                                <a href="#" class="btn btn-gray" role="button">수정하기</a>
-                            </p>
-                        </div>
-                    </section>
-                </div>
-            </div>
+			<div class="visual">
+				<ul class="bxslider">
+					<li><a href="#"><img src="/images/main/main_visual01.jpg" alt=""></a></li>
+					<li><a href="#"><img src="/images/main/main_visual01.jpg" alt=""></a></li>
+					<li><a href="#"><img src="/images/main/main_visual01.jpg" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="news-info">
+				<div class="information">
+					<h3>시헌 소개</h3>
+					<p>고객과 함께 성장하며 발전하는 <br> 법무법인 시헌입니다.</p>
+					<p><a href="#">바로가기</a></p>
+				</div>
+				<div id="shortcuts">
+					<h3>업무분야<small>업무분야를 소개합니다.</small></h3>
+					<ul class="slider">
+						<li class="shortcut-1"><a href="#"><span></span>기업법무</a></li>
+						<li class="shortcut-2"><a href="#"><span></span>Venture/IPO</a></li>
+						<li class="shortcut-3"><a href="#"><span></span>M&amp;A</a></li>
+						<li class="shortcut-1"><a href="#"><span></span>기업법무</a></li>
+						<li class="shortcut-2"><a href="#"><span></span>Venture/IPO</a></li>
+						<li class="shortcut-3"><a href="#"><span></span>M&amp;A</a></li>
+					</ul>
+				</div>
+				<div class="notice">
+					<ul class="nav nav-pills nav-justified" role="tablist">
+						<li role="presentation" class="active">
+							<a href="#notice-1" aria-controls="notice-1" role="tab" data-toggle="tab" aria-expanded="true">소식</a>
+						</li>
+						<li role="presentation">
+							<a href="#notice-2" aria-controls="notice-2" role="tab" data-toggle="tab" aria-expanded="false">뉴스레터</a>
+						</li>
+						<li role="presentation">
+							<a href="#notice-3" aria-controls="notice-3" role="tab" data-toggle="tab" aria-expanded="false">자료</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="notice-1">
+							<ul>
+								<li>
+									<a href="#">
+										<h4><i>세미나</i>유럽에서의 특허활동-의료기술을 중유럽에서의 특허활동-의료기술을 중</h4>
+										<span>16.06.01</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<h4><i>세미나</i>시헌, 한국방위산업학회-미래국방포시헌, 한국방위산업학회-미래국방포</h4>
+										<span>16.06.01</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<h4><i>세미나</i>기업활력법 시행에 따른 기업의 대응</h4>
+										<span>16.06.01</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<h4><i>시헌소식</i>제23차 IAKL(세계한인변호사회)제23차 IAKL(세계한인변호사회)제23차 IAKL(세계한인변호사회)</h4>
+										<span>16.06.01</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="notice-2">
+							뉴스레터
+						</div>
+						<div role="tabpanel" class="tab-pane" id="notice-3">
+							자료
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</main>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>

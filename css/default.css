@@ -1,51 +1,21 @@
-ul,ol {
+ul,ol,dl {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    line-height: 24px;
 }
 body {
 	min-width:  1200px;
 	margin: 0 auto;
 	background-color: #edf2f8;
 }
-/* header */
-body #header {
-	border-bottom: 3px solid #283b73;
-	background-color: #fff;
-	height: 88px;
-}
-body #header > .container {
-	position: relative;
-	width: 1170px;
-    padding: 0;
-	background-color: #fff;
-}
-body #header .container h1 {
-	position: absolute;
-	top: 19px;
-	left: 15px;
-	margin: 0;
-}
-body #header .container .lang {
-	position: absolute;
-	top: 0;
-	right: 15px;
-}
-body #header .container .lang > li {
-	display: inline-block;
-	font-size: 12px;
-	color: #999;
-	line-height:  85px;
-}
-body #header .container .lang > li: first-child:after {
-	content: "|";
-	padding: 0 10px;
-}
-body #header .container .lang > li ul li {
-	display: inline-block;
-}
-body #content {
-    min-height: 700px;
+img {
+    max-width: 847px;
 }
 
 /* footer */

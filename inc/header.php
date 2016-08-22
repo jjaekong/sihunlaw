@@ -2,7 +2,7 @@
 <a href="#content" class="skip-nav sr-only sr-only-focusable">컨텐츠로 건너뛰기</a>
 <header id="header">
     <div class="container">
-        <h1><a href="#"><img src="/images/main/logo.jpg" alt="로고"></a></h1>
+        <h1><a href="#"><img src="/images/main/logo.png" alt="로고"></a></h1>
         <nav id="gnb" tabindex="-1">
             <div class="wrapper">
                 <ul>

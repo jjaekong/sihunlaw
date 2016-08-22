@@ -1,0 +1,30 @@
+/* business_field */
+.business.business_field .sub-content > .corporation-content {
+    padding: 0 0 50px 0;
+    border-bottom: 1px solid #c2c2c2;
+}
+.business.business_field .sub-content > .corporation-content > p {
+    letter-spacing: -1px;
+}
+.business.business_field .sub-content > div {
+    padding: 82px 0 80px 0;
+    border-bottom: 1px solid #c2c2c2;
+}
+.business.business_field .sub-content > div:last-child {
+    border-bottom: 0;
+}
+.business.business_field .sub-content > div > h3 {
+    font-size: 40px;
+    color: #283b73;
+    font-weight: 600;
+    margin: 0 0 50px 0;
+}
+.business.business_field .sub-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5f5f5f;
+    margin: 73px 0 17px;
+}
+.business.business_field .sub-content > div > p {
+    letter-spacing: -1px;
+}

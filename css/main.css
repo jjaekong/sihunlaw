@@ -135,7 +135,7 @@ body #content .container .news-info .information p:nth-of-type(2) a {
 }
 body #content .container .news-info .information p:nth-of-type(2) a:after {
 	position: absolute;
-	top: -1px;
+	top: -6px;
 	right: -10px;
 	font-size: 10px;
 	content: ">";

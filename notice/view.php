@@ -24,11 +24,11 @@
                         <h3>시헌소식</h3>
                         <ol class="breadcrumb">
                             <li>
-                                <a href="#">
+                                <a href="/index.php">
                                     <span class="glyphicon glyphicon-home"></span>
                                 </a>
                             </li>
-                            <li><a href="#">소식 및 자료</a></li>
+                            <li><a href="/notice/list.php">소식 및 자료</a></li>
                             <li class="active">시헌소식(자세히 보기)</li>
                         </ol>
                         <hr>

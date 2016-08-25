@@ -28,11 +28,11 @@
                         <h3>조윤상 변호사</h3>
                         <ol class="breadcrumb">
                             <li>
-                                <a href="#">
+                                <a href="/index.php">
                                     <span class="glyphicon glyphicon-home"></span>
                                 </a>
                             </li>
-                            <li><a href="#">구성원</a></li>
+                            <li><a href="/member/lawyer_jsh.php">구성원</a></li>
                             <li class="active">조윤상 변호사</li>
                         </ol>
                         <hr>

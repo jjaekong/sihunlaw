@@ -1,9 +1,121 @@
-.lawyer .article-header {
-  background-color: #0000FF;
-  height: 100px; }
-  .lawyer .article-header a {
-    color: white; }
-    .lawyer .article-header a:hover {
-      color: orange; }
+@charset "UTF-8";
+/*  예
+$color: #0000FF;
+
+.lawyer {
+    .article-header {
+        background-color: $color;
+        height: 100px;
+        a {
+            color: white;
+            &:hover {
+                color: orange;
+            }
+        }
+    }
+    .article-content {
+
+    }
+}
+*/
+.member.lawyer .lawyer .article-header {
+  overflow: hidden; }
+  .member.lawyer .lawyer .article-header > p {
+    float: left;
+    margin-right: 32px; }
+    .member.lawyer .lawyer .article-header > p img {
+      width: 169px !important;
+      height: 185px; }
+  .member.lawyer .lawyer .article-header .lawyer-info {
+    overflow: hidden;
+    padding-top: 42px; }
+    .member.lawyer .lawyer .article-header .lawyer-info h3 {
+      float: left;
+      font-size: 24px;
+      color: #222;
+      margin: 0;
+      padding-bottom: 13px; }
+      .member.lawyer .lawyer .article-header .lawyer-info h3 small {
+        display: inline-block;
+        font-size: 17px;
+        color: #222;
+        margin-left: 20px; }
+    .member.lawyer .lawyer .article-header .lawyer-info .btn-area {
+      float: right; }
+      .member.lawyer .lawyer .article-header .lawyer-info .btn-area p .btn {
+        font-size: 14px !important;
+        width: 84px !important;
+        height: 25px !important;
+        padding: 1px 0 !important; }
+      .member.lawyer .lawyer .article-header .lawyer-info .btn-area p .btn-gray {
+        background-image: url(/images/member/print.png);
+        background-repeat: no-repeat;
+        background-position: 15px 5px;
+        padding-left: 20px !important; }
+    .member.lawyer .lawyer .article-header .lawyer-info hr {
+      clear: both;
+      margin: 0 0 20px 0;
+      border-top: 1px solid #eaeaea; }
+    .member.lawyer .lawyer .article-header .lawyer-info .territory {
+      padding-bottom: 22px;
+      border-bottom: 1px solid #eaeaea; }
+      .member.lawyer .lawyer .article-header .lawyer-info .territory .business-list dt {
+        display: inline-block;
+        width: 70px;
+        letter-spacing: -1px;
+        margin-bottom: 20px; }
+      .member.lawyer .lawyer .article-header .lawyer-info .territory .business-list dd {
+        display: inline-block;
+        font-size: 14px;
+        color: #5f5f5f;
+        opacity: 0.8; }
+        .member.lawyer .lawyer .article-header .lawyer-info .territory .business-list dd ul li {
+          font-size: 14px;
+          color: #5f5f5f;
+          opacity: 0.8;
+          letter-spacing: -1px;
+          display: inline-block; }
+        .member.lawyer .lawyer .article-header .lawyer-info .territory .business-list dd ul li:after {
+          content: "/"; }
+        .member.lawyer .lawyer .article-header .lawyer-info .territory .business-list dd ul li:last-child:after {
+          content: "";
+          padding: 0; }
+      .member.lawyer .lawyer .article-header .lawyer-info .territory .contact dt {
+        display: inline-block;
+        width: 70px;
+        letter-spacing: -1px; }
+      .member.lawyer .lawyer .article-header .lawyer-info .territory .contact dd {
+        display: inline-block;
+        margin-right: 40px;
+        font-size: 14px;
+        color: #5f5f5f;
+        opacity: 0.8; }
+        .member.lawyer .lawyer .article-header .lawyer-info .territory .contact dd a {
+          color: #5f5f5f;
+          opacity: 0.8; }
+      .member.lawyer .lawyer .article-header .lawyer-info .territory .contact dd:last-child {
+        margin-right: 0; }
+.member.lawyer .lawyer .article-content p {
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+  margin-top: 58px;
+  letter-spacing: -0.5px; }
+  .member.lawyer .lawyer .article-content p strong {
+    font-size: 19px;
+    color: #283b73;
+    line-height: 30px; }
+.member.lawyer .lawyer .article-content h4 {
+  font-size: 18px;
+  color: #5f5f5f;
+  font-weight: 600;
+  margin: 50px 0 17px; }
+.member.lawyer .lawyer .article-content h4:nth-of-type(1) {
+  margin: 100px 0 17px; }
+
+.lawyer-two .article-content p {
+  margin-top: 35px !important; }
+.lawyer-two .article-content p:nth-of-type(1) {
+  margin-top: 58px !important; }
 
 /*# sourceMappingURL=member.css.map */

@@ -2,22 +2,22 @@
 <a href="#content" class="skip-nav sr-only sr-only-focusable">컨텐츠로 건너뛰기</a>
 <header id="header">
     <div class="container">
-        <h1><a href="#"><img src="/images/main/logo.png" alt="로고"></a></h1>
+        <h1><a href="/index.php"><img src="/images/main/logo.png" alt="로고"></a></h1>
         <nav id="gnb" tabindex="-1">
             <div class="wrapper">
                 <ul>
                     <li>
-                        <a href="#">시헌소개</a>
+                        <a href="/introduce/introduce.php">시헌소개</a>
                         <ul>
-                            <li><a href="#">법인소개</a></li>
-                            <li><a href="#">비전과 가치</a></li>
-                            <li><a href="#">오시는 길</a></li>
+                            <li><a href="/introduce/introduce.php">법인소개</a></li>
+                            <li><a href="/introduce/vision.php">비전과 가치</a></li>
+                            <li><a href="/introduce/location.php">오시는 길</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">업무분야</a>
+                        <a href="/business/business_field.php">업무분야</a>
                         <ul>
-                            <li><a href="#">기업법무</a></li>
+                            <li><a href="/business/business_field.php#corporation">기업법무</a></li>
                             <li><a href="#">VENTURE/IPO</a></li>
                             <li><a href="#">M&amp;A</a></li>
                             <li><a href="#">금융/증권</a></li>
@@ -31,7 +31,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">구성원</a>
+                        <a href="/member/lawyer_jsh.php">구성원</a>
                         <ul>
                             <li><a href="#">한국변호사</a></li>
                             <li><a href="#">외국변호사</a></li>
@@ -39,7 +39,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">소식 및 자료</a>
+                        <a href="/notice/list.php">소식 및 자료</a>
                         <ul>
                             <li><a href="#">소식</a></li>
                             <li><a href="#">자료</a></li>

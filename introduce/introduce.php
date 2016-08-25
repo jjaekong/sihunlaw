@@ -24,11 +24,11 @@
                         <h3>법인 소개</h3>
                         <ol class="breadcrumb">
                             <li>
-                                <a href="#">
+                                <a href="/index.php">
                                     <span class="glyphicon glyphicon-home"></span>
                                 </a>
                             </li>
-                            <li><a href="#">시헌소개</a></li>
+                            <li><a href="/introduce/introduce.php">시헌소개</a></li>
                             <li class="active">법인 소개</li>
                         </ol>
                         <hr>

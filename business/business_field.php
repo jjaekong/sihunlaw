@@ -35,11 +35,11 @@
                         <h3>기업법무 일반</h3>
                         <ol class="breadcrumb">
                             <li>
-                                <a href="#">
+                                <a href="/index.php">
                                     <span class="glyphicon glyphicon-home"></span>
                                 </a>
                             </li>
-                            <li><a href="#">업무분야</a></li>
+                            <li><a href="/business/business_field.php">업무분야</a></li>
                             <li class="active">기업법무 일반</li>
                         </ol>
                         <hr>

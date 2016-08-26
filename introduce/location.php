@@ -85,9 +85,46 @@
                             </p>
                             <p class="attention">우성아파트 사거리에서 1층에 “파스쿠찌“ 카페가 있는 빌딩 19층</p>
                             <h4>자가용 이용시 주차장 입구 안내</h4>
-                            <p>
-                                <img src="/images/introduce/map_img02.jpg" alt="자가용 이용 입구 약도">
-                            </p>
+                            <div class="location-info">
+                                <ul class="nav nav-pills nav-justified" role="tablist">
+
+                                    <li role="presentation" class="active">
+                                        <a href="#location-info1" aria-controls="location-info1" role="tab" data-toggle="tab" aria-expanded="true">교대방향</a>
+                                    </li>
+
+                                    <li role="presentation">
+                                        <a href="#location-info2" aria-controls="location-info2" role="tab" data-toggle="tab" aria-expanded="false">강남역 방향</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#location-info3" aria-controls="location-info3" role="tab" data-toggle="tab" aria-expanded="false">역삼초등학교 방향</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#location-info4" aria-controls="location-info4" role="tab" data-toggle="tab" aria-expanded="false">양재역 방향</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="location-info1">
+                                        <p>
+                                            <img src="/images/introduce/location-info01.jpg" alt="교대방향 오시는길 이미지">
+                                        </p>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="location-info2">
+                                        <p>
+                                            <img src="/images/introduce/location-info02.jpg" alt="강남역방향 오시는길 이미지">
+                                        </p>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="location-info3">
+                                        <p>
+                                            <img src="/images/introduce/location-info03.jpg" alt="역삼초등학교방향 오시는길 이미지">
+                                        </p>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="location-info4">
+                                        <p>
+                                            <img src="/images/introduce/location-info04.jpg" alt="양재역방향 오시는길 이미지">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                             <p class="attention">광일빌딩 건물 사이에 지하로 내려가는 주차장 입구가 위치해 있습니다</p>
                         </div>
                     </article>

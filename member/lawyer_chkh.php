@@ -25,7 +25,7 @@
                 </div>
                 <div class="col-xs-9 sub-content"><!-- content Start -->
                     <div class="page-header">
-                        <h3>채경화 변호사</h3>
+                        <h3>채경화 중국변호사</h3>
                         <ol class="breadcrumb">
                             <li>
                                 <a href="/index.php">
@@ -33,7 +33,7 @@
                                 </a>
                             </li>
                             <li><a href="/member/lawyer_jsh.php">구성원</a></li>
-                            <li class="active">채경화 변호사</li>
+                            <li class="active">채경화 중국변호사</li>
                         </ol>
                         <hr>
                     </div>

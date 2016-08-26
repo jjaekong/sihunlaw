@@ -62,6 +62,7 @@ body #content .container .news-info #shortcuts ul li span {
 	height: 50px;
 	margin: 0 auto;
 }
+
 body #content .container .news-info #shortcuts .bx-wrapper .bx-viewport {
 	height: 130px !important;
 }
@@ -69,11 +70,48 @@ body #content .container .news-info #shortcuts ul .shortcut-1 span {
 	background: url(/images/main/shortcut_img01.png) no-repeat 50% 0;
 }
 body #content .container .news-info #shortcuts ul .shortcut-2 span {
-	background: url(/images/main/shortcut_img02.png) no-repeat 50% 0;
-}
-body #content .container .news-info #shortcuts ul .shortcut-3 span {
 	background: url(/images/main/shortcut_img03.png) no-repeat 50% 0;
 }
+body #content .container .news-info #shortcuts ul .shortcut-3 span {
+	background: url(/images/main/shortcut_img02.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-4 span {
+	background: url(/images/main/shortcut_img04.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-5 span {
+	background: url(/images/main/shortcut_img05.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-6 span {
+	background: url(/images/main/shortcut_img06.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-7 span {
+	background: url(/images/main/shortcut_img07.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-8 span {
+	background: url(/images/main/shortcut_img08.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-9 span {
+	background: url(/images/main/shortcut_img09.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-10 span {
+	background: url(/images/main/shortcut_img10.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-11 span {
+	background: url(/images/main/shortcut_img11.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-12 span {
+	background: url(/images/main/shortcut_img12.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-13 {
+    margin-left: 45px;
+}
+body #content .container .news-info #shortcuts ul .shortcut-13 span {
+	background: url(/images/main/shortcut_img13.png) no-repeat 50% 0;
+}
+body #content .container .news-info #shortcuts ul .shortcut-14 span {
+	background: url(/images/main/shortcut_img14.png) no-repeat 50% 0;
+}
+
 body #content .container .news-info #shortcuts .bx-controls .bx-controls-direction .bx-prev {
 	position: absolute;
 	bottom: 65px;

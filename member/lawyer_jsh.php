@@ -12,7 +12,7 @@
                         <h2>구성원</h2>
                         <nav id="lnb">
                             <ul>
-                                <li class="active"><a href="/member/lawyer_jsh.php">주성훈 대표변호사</a></li>
+                                <li class="active"><a href="/member/lawyer_jsh.php">주성훈 변호사</a></li>
                                 <li><a href="/member/lawyer_lnr.php">이나래 변호사</a></li>
                                 <li><a href="/member/lawyer_lyj.php">이용준 변호사</a></li>
                                 <li><a href="/member/lawyer_jss.php">정승식 변호사</a></li>
@@ -25,14 +25,14 @@
                 </div>
                 <div class="col-xs-9 sub-content"><!-- content Start -->
                     <div class="page-header">
-                        <h3>주성훈 대표변호사</h3>
+                        <h3>주성훈 변호사</h3>
                         <ol class="breadcrumb">
                             <li>
                                 <a href="/index.php">
                                     <span class="glyphicon glyphicon-home"></span>
                                 </a>
                             </li>
-                            <li><a href="/member/lawyer_jsh.php">구성원</a></li>
+                            <li><a href="/member/lawyer_list.php">구성원</a></li>
                             <li class="active">주성훈 변호사</li>
                         </ol>
                         <hr>
@@ -40,10 +40,10 @@
                     <article class="lawyer">
                         <div class="article-header">
                             <p>
-                                <img src="/images/member/lawyer_img.gif" alt="변호사 이미지">
+                                <img src="/images/member/lawyer_img_1.jpg" alt="주성 변호사">
                             </p>
                             <div class="lawyer-info">
-                                <h3>주성훈<small>대표변호사</small></h3>
+                                <h3>주성훈<small>변호사</small></h3>
                                 <div class="btn-area">
                                     <p>
                                         <a href="#" class="btn btn-gray" role="button">Print</a>

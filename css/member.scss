@@ -1,22 +1,3 @@
-/*  예
-$color: #0000FF;
-
-.lawyer {
-    .article-header {
-        background-color: $color;
-        height: 100px;
-        a {
-            color: white;
-            &:hover {
-                color: orange;
-            }
-        }
-    }
-    .article-content {
-
-    }
-}
-*/
 .member.lawyer {
     .lawyer {
         .article-header {
@@ -157,6 +138,101 @@ $color: #0000FF;
         }
         p:nth-of-type(1) {
             margin-top: 58px !important;
+        }
+    }
+}
+
+.lawyer-list {
+    .sub-content {
+        .page-header {
+            .breadcrumb {
+                bottom: 65px !important;
+            }
+            p {
+                display: block;
+                width: 100%;
+                height: 65px;
+                font-size: 18px;
+                color: #222;
+                line-height: 65px;
+                font-weight: 600;
+                padding-left: 20px;
+                margin-top: 39px;
+                border-top: 1px solid #c2c2c2;
+                border-bottom: 1px solid #c2c2c2;
+                background-color: #f2f2f2;
+            }
+        }
+        .lawyer-member {
+            li {
+                overflow: hidden;
+                padding: 34px 0 39px;
+                border-bottom: 1px solid #eaeaea;
+                p {
+                    float: left;
+                    img {
+                        display: block;
+                        margin-right: 40px;
+                        width: 120px;
+                        height: 131px;
+                    }
+                }
+                .details {
+                    float: left;
+                    h4 {
+                        display: block;
+                        margin-top: 0;
+                        margin-bottom: 40px;
+                        a {
+                            font-size: 18px;
+                            color: #222;
+                            font-weight: 600;
+                        }
+                    }
+                    .business {
+                        float: left;
+                        dt {
+                            width: 85px;
+                            font-size: 14px;
+                            color: #222;
+                            font-weight: 600;
+                            vertical-align: top;
+                            display: inline-block;
+                        }
+                        dd {
+                            width: 340px;
+                            vertical-align: top;
+                            display: inline-block;
+                            letter-spacing: -.5px;
+                            a {
+                                font-size: 14px;
+                                color: #666;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                    .email {
+                        float: left;
+                        dt {
+                            width: 85px;
+                            font-size: 14px;
+                            color: #222;
+                            font-weight: 600;
+                            vertical-align: top;
+                            display: inline-block;
+                        }
+                        dd {
+                            vertical-align: top;
+                            display: inline-block;
+                            a {
+                                font-size: 14px;
+                                color: #666;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

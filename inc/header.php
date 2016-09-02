@@ -34,9 +34,9 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="/member/lawyer_jsh.php">구성원</a>
+                        <a href="/member/lawyer_list.php">구성원</a>
                         <ul>
-                            <li><a href="/member/lawyer_jsh.php">주성훈 대표변호사</a></li>
+                            <li><a href="/member/lawyer_jsh.php">주성훈 변호사</a></li>
                             <li><a href="/member/lawyer_lnr.php">이나래 변호사</a></li>
                             <li><a href="/member/lawyer_lyj.php">이용준 변호사</a></li>
                             <li><a href="/member/lawyer_jss.php">정승식 변호사</a></li>
